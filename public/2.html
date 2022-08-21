@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://www.jyvip.xyz/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button[not:disabled]:hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel[not:disabled]:hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger[not:disabled]:hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+
+<title>精英云-精英互联-云服务器-虚拟主机-免费空间-免备案</title>
+<meta name="keywords" content="云服务器,虚拟主机,VPS,云主机,域名注册,免备案,免费空间,免费虚拟主机,免费云服务器,免费VPS,免备案VPS空间,免费服务器,免费云主机,VPS服务器,精英云">
+<meta name="description" content="精英云-精英互联一直为广大客户提供免费VPS云服务器,免费虚拟主机,云主机,免费空间,免备案域名VPS注册等互联网服务,我们坚持初心十八年不间断提供永久免费虚拟主机,免费VPS云服务器给学生和初创业者使用,以帮助客户轻松,高速,高效的应用互联网/物联网,提高企业竞争能力">
+<link rel="shortcut icon" href="http://www.jyvip.xyz/templates/sanfeng/asset/icons/favicon.png">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/global.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/common3.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/header.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/banner-common.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/banner-carousel.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/banner-tpl1.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/nav.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/page-next-banner.css">
+<link rel="stylesheet" href="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/index.css">
+<script> if(/Android|webOS|iPhone|iPad/i.test(navigator.userAgent)) window.location.href = 'http://m.jyvip.xyz';</script>
+<script language="JavaScript">
+
+</script>
+<style id="tsbrowser_video_independent_player_style" type="text/css">
+      [tsbrowser_force_max_size] {
+        width: 100% !important;
+        height: 100% !important;
+        left: 0px !important;
+        top: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        transform: none !important;
+      }
+      [tsbrowser_force_fixed] {
+        position: fixed !important;
+        z-index: 9999 !important;
+        background: black !important;
+      }
+      [tsbrowser_force_hidden] {
+        opacity: 0 !important;
+        z-index: 0 !important;
+      }
+      [tsbrowser_hide_scrollbar] {
+        overflow: hidden !important;
+      }
+      [tsbrowser_display_none] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+      [tsbrowser_force_show] {
+        display: black !important;
+        visibility: visible !important;
+        opacity: 0;
+      }</style></head>
+<body><div class="" style="display: none; position: absolute;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;"></div><a class="aui_close" href="javascript:;"></a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+<div class="xixun">
+<a href="http://www.jyvip.xyz/index.php/buy/index/">
+<span style="color: yellow">【赔钱赚吆喝】</span>
+免费云虚拟主机，每天限量开通中。 &gt;&gt;点击抢购
+</a>
+<span class="xixun-close">X</span>
+</div>
+<div id="header" class="" meta-data-adjust-app="hide" data-theme="transparent-light">
+<div class="header-container">
+<div class="header-wrapper">
+<div class="header-top header-wrapper-bg">
+<div class="header-main">
+<div class="header-menu">
+<i class="header-icon header-icon-menu"></i>
+</div>
+<h2><a class="header-logo" bi_name="logo" href="http://www.jyvip.xyz/" style="font-size: 0;">精英云</a></h2>
+<div class="header-tools clearfix">
+<ul class="header-tools-list">
+<li class="header-search J-header-search" bi_parent_name="search">
+<form action="http://www.jyvip.xyz/#" class="header-search-inner J-serach-form" tabindex="-1" method="get">
+<input class="J-search-input" name="k" type="text" placeholder="搜索" data-active-placeholder="输入您想要搜索的关键词" autocomplete="off">
+<button type="submit" class="header-search-submit"></button>
+<i class="header-search-close J-search-close"></i>
+</form>
+</li>
+<li class="header-console"><a href="http://www.jyvip.xyz/index.php/user">控制台</a></li>
+<li class="header-console"><a href="http://www.jyvip.xyz/#">帮助</a></li>
+<li class="header-login"><a href="http://www.jyvip.xyz/index.php/index/login/" class="btn js-login">登录</a></li>
+<li class="header-register"><a href="http://www.jyvip.xyz/index.php/index/register" class="btn js-register">注册</a></li>
+<li class="header-user user-info">
+<div class="header-user-avator">
+<a href="http://www.jyvip.xyz/control">
+<img class="header-tool-user-avator-img account-pic" src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/xiao.png">
+</a>
+</div>
+<div class="header-user-name"><span class="my-acct"></span><i class="header-icon-dropdown"></i></div>
+<div class="header-user-info user-info-layer" id="userPanel">
+<div class="user-box">
+<span>欢迎：</span>
+<span class="username-text-show text-overflow" id="usernameShow"></span>
+<span class="auth-status pull-right" style="display: inline;">已实名认证</span>
+<a class="new-auth pull-right" href="http://www.jyvip.xyz/control/#/user2" target="_blank" style="display: none;">实名认证&gt;&gt;</a>
+</div>
+<div class="pay-box">
+<span>￥<span id="userMoney">0.40</span></span>
+<a href="http://www.jyvip.xyz/control/#/caiwu" target="/user/">充值</a>
+</div>
+<div class="user-panel-body">
+<ul class="shortcut-menu-list">
+<li class="shortcut-menu-item">
+<a class="user-icon-01" href="http://www.jyvip.xyz/control/#/product" target="/control/">
+产品管理
+<span class="user-record-count" id="serverCount">2</span>
+</a>
+</li>
+<li class="shortcut-menu-item">
+<a class="user-icon-02" href="http://www.jyvip.xyz/control/#/message" target="/control/">
+消息中心
+<span class="user-record-count" id="msgCount">1</span>
+</a>
+</li>
+<li class="shortcut-menu-item">
+<a class="user-icon-03" href="http://www.jyvip.xyz/control/#/fuwu" target="/control/">提交工单</a>
+</li>
+</ul>
+<div class="user-panel-bottom">
+<a class="exit-btn pull-right" id="loginout" href="javascript:void(0)">退出</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<span class="tips">防御100G</span>
+<div class="header-bottom clearfix">
+<div class="header-nav">
+<ul class="header-nav-list">
+<li data-key="activity">
+<a href="http://www.jyvip.xyz/">首页</a>
+</li>
+<li data-key="product">
+<a href="http://www.jyvip.xyz/index.php/index/login/">登陆</a>
+</li>
+<li data-key="solution">
+<a href="http://www.jyvip.xyz/index.php/index/register">注册</a>
+</li>
+<li data-key="price">
+<a href="http://www.jyvip.xyz/index.php/user">用户中心</a>
+</li>
+<li data-key="ei">
+<a href="http://www.jyvip.xyz/index.php/index/announcement/5/">最新活动</a>
+</li>
+<li data-key="gf">
+<a href="http://www.jyvip.xyz/index.php/buy/index/">订购云产品</a>
+</li>
+<li data-key="vip">
+<a href="http://www.jyvip.xyz/index.php/index/announcement/2/">VIP代理</a>
+</li>
+<li data-key="market">
+<a href="https://wanwang.aliyun.com/" target="_blank">域名注册</a>
+</li>
+<li data-key="partner">
+<a href="http://www.jyvip.xyz/#">关于我们</a>
+</li>
+
+</ul>
+<div class="header-nav-hover-line" style="width: 0px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="content">
+<div>
+<div class="section banner" id="section-banner" bi_name="banner">
+<div class="carousel-container banner-container" data-effect="none">
+<div class="carousel-wrapper">
+<div class="carousel-slide carousel-slide-active" data-img="/templates/sanfeng/style/images/img/homepage-_banner-guiyang-bg.jpg" data-theme="dark" slide-time="5000" bi_parent_name="1">
+<div class="banner-tpl banner-tpl1">
+<div class="banner-tpl1-bg banner-fadeOut" data-exit-animation="banner-fadeOut">
+<div class="banner-tpl1-bg-inner" style="background-image: url(/templates/sanfeng/style/images/img/homepage-_banner-guiyang-bg.jpg)"></div>
+<div class="banner-tpl1-bg-inner animation-lightning" style="background-image: url(/templates/sanfeng/style/images/img/homepage-_banner-guiyang-bg-animation.jpg)" data-enter-animation="animation-lightning"></div>
+</div>
+<a class="banner-tpl1-a" href="http://www.jyvip.xyz/index.php/index/register">
+<div class="banner-tpl1-main">
+<div class="banner-tpl1-text">
+<div data-exit-transition="banner-trans-fadeOutUp" data-enter-transition="banner-trans-fadeInUp" class="banner-trans-fadeOutUp" style="">
+<h2>三年坚持免费是承诺也是情怀</h2>
+<h1>承诺终身永久免费</h1>
+<p>注册拥有【永久免费虚拟主机】</p>
+<div class="banner-tpl1-btn-box">
+<span class="cui-btn cui-btn-primary cui-btn-large">立即注册</span>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="carousel-slide carousel-slide-current" data-img="/templates/sanfeng/style/images/img/homepage-_banner-huojian-bg.jpg" data-theme="dark" slide-time="5000" bi_parent_name="2">
+<div class="banner-tpl banner-tpl1">
+<div class="banner-tpl1-bg" data-exit-animation="banner-fadeOut">
+<div class="banner-tpl1-bg-inner" style="background-image: url(/templates/sanfeng/style/images/img/homepage-_banner-huojian-bg.jpg)"></div>
+<div class="banner-tpl1-bg-inner" style="background-image: url(/templates/sanfeng/style/images/img/homepage-_banner-huojian-bg-animation.jpg)" data-enter-animation="animation-lightning"></div>
+</div>
+<a class="banner-tpl1-a" href="http://www.jyvip.xyz/#">
+<div class="banner-tpl1-main">
+<div class="banner-tpl1-text">
+<div data-exit-transition="banner-trans-fadeOutUp" data-enter-transition="banner-trans-fadeInUp" class="">
+<h2>赔钱赚吆喝</h2>
+<h1>免备案云虚拟主机0元抢购</h1>
+<p>每天限量发售，省钱抢优惠</p>
+<div class="banner-tpl1-btn-box">
+<span class="cui-btn cui-btn-primary cui-btn-large">立即抢购</span>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="carousel-indicator-wrapper" data-theme="light"><div class="carousel-indicator" bi_name="banner_slideBullets_1"><div><span style="width: 0px;"></span></div></div><div class="carousel-indicator carousel-indicator-active" bi_name="banner_slideBullets_2"><div><span style="width: 0.239994%; overflow: hidden;"></span></div></div></div>
+</div>
+<div class="events" data-theme="light">
+<div class="events-wrapper">
+<ul class="clearfix">
+<li>
+<a href="http://www.jyvip.xyz/index.php/buy/index/3/" target="_blank" bi_name="特惠云服务器">
+<h2>特惠云主机</h2>
+<p class="js-title">3元限量抢购中</p>
+</a>
+</li>
+<li>
+<a href="http://www.jyvip.xyz/index.php/buy/index/5/" target="_blank" bi_name="高防服务器">
+<h2>高防云主机</h2>
+<p class="js-title">100G防御，低至4元</p>
+</a>
+</li>
+<li>
+<a href="http://www.jyvip.xyz/index.php/buy/index/4/" target="_blank" bi_name="精英云怀来机房">
+<h2>精英云独立服务器</h2>
+<p class="js-title">正式上线，多台高配服务器稳定运行</p>
+</a>
+</li>
+<li>
+<a href="http://www.jyvip.xyz/index.php/index/announcement/2/" target="_blank" bi_name="终身VIP会员">
+<h2>VIP代理</h2>
+<p class="js-title">无限余额，无限开通主机</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<a href="http://www.jyvip.xyz/#section-product" class="page-next page-next-banner" bi_name="banner_翻页按钮" data-theme="light"><span></span></a>
+</div>
+</div>
+<div class="section section-padding section-product" id="section-product" bi_parent_name="阿肖学院">
+<div class="section-product-bg">
+<div class="section-product-bg-inner section-product-bg-bottom">
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/homepage-product-bg-bottom.png">
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/homepage-product-bg-bottom.png">
+</div>
+<div class="section-product-bg-inner section-product-bg-middle">
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/homepage-product-bg-middle.png">
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/homepage-product-bg-middle.png">
+</div>
+<div class="section-product-bg-inner section-product-bg-top">
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/homepage-product-bg-top.png">
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/homepage-product-bg-top.png">
+</div>
+</div>
+<div class="section-title">
+<h1>服务好百万免费用户只是基础，服务好付费用户才是能耐</h1>
+<h2>一个IDC企业能承载的用户体量是判断企业综合技术实力的重要依据</h2>
+</div>
+<div class="section-content-middle section-wrapper">
+<div class="mall-app">
+<ul>
+<li>
+<a href="http://www.jyvip.xyz/index.php/user" target="_blank">
+<div class="mall-app-card">
+<div class="mall-app-card-top" style="background-image: url(/templates/sanfeng/style/images/img/homepage-jifang-bg.jpg);">
+</div>
+<div class="mall-app-card-bottom">
+<h4>精英云数据中心机房</h4>
+<p>投入运营后的又一重要节点</p>
+</div>
+</div>
+</a>
+</li>
+<li>
+<a href="http://www.jyvip.xyz/index.php/user">
+<div class="mall-app-card">
+<div class="mall-app-card-top" style="background-image: url(/templates/sanfeng/style/images/img/homepage-fuwu-bg.jpg);">
+</div>
+<div class="mall-app-card-bottom">
+<h4>虚拟主机和云服务器的服务范围</h4>
+<p>提供更高一级的增值服务，为您全力保驾护航</p>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="section-bottom">
+<div class="section-more-wrap">
+大框架、大格局、大基数、才有大发展
+</div>
+</div>
+</div>
+<div class="section section-padding section-free" id="section-solution" bi_parent_name="免费产品">
+<div class="section-title">
+<h1>免费产品让学生和初创业者永久免费使用</h1>
+<h2>为您成为大咖后，可上九天揽月、可下五洋捉鳖的梦想助航！</h2>
+</div>
+<div class="section-content-middle section-wrapper" style="padding: 0;height: 40%;">
+<div class="free-app">
+<ul>
+<li>
+<div class="free-app-card">
+<a href="http://www.jyvip.xyz/index.php/buy/index/">
+<div class="free-app-card-top" style="background-image: url(/templates/sanfeng/style/images/img/homepage-free-01.png);">
+<h4>免费虚拟主机</h4>
+<p>专用服务器，专用线路，实时在线开通</p>
+<p>送免备案系统，永久免费</p>
+<br>
+<div class="free-app-card-bottom">
+<p>月流量：10G</p>
+<p>网页空间：50M</p>
+<p>MySql数据库：50M</p>
+<p>IP共享、支持ASP/PHP</p>
+</div>
+</div>
+</a>
+</div>
+<div class="section-content-free-bottom free_vhost">
+<ul><li>
+<a href="http://cc.1xie.xyz/" target="_blank" onclick="return confirm(&#39;如果您使用的是国外的虚拟主机，比如香港，美国等，是不需要备案域名的。当使用国内主机才会使用到备案域名，您可以在阿里云，腾讯云等平台将自己的域名进行备案，也可以使用我们合作伙伴的免费备案域名\n奥特二级域名：cc.1xie.xyz \n点击确定，进入使用&#39;);">没有备案域名如何使用免费虚拟主机</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;不可以，如有需要请直接购买付费主机。&#39;);">免费虚拟主机是否可以直接升级为付费主机</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;即将到期的时候在控制面板点击续费即可&#39;);">免费虚拟主机如何免费延期</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="free-app-card">
+<a href="http://www.jyvip.xyz/index.php/buy/index/4/">
+<div class="free-app-card-top" style="background-image: url(/templates/sanfeng/style/images/img/homepage-free-02.png);">
+<h4>特价云服务器</h4>
+<p>专用服务器，专用线路，实时在线开通</p>
+<p>送免备案系统，多国地区</p>
+<br>
+<div class="free-app-card-bottom">
+<p>CPU：1核</p>
+<p>内存：1G</p>
+<p>带宽：1M</p>
+<p>数据盘：30G</p>
+</div>
+</div>
+</a>
+</div>
+<div class="section-content-free-bottom free_vps">
+<ul><li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;购买后，请在用户中心发工单进行申请开通\n在工单标题写开通服务器，内容中填写需要开通的地区和自己的联系方式即可&#39;);">如何开通云服务器？</a>
+</li>
+<li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;到期当天自动删除，请即将到期的时候备份数据&#39;);">云服务器到期多久会删除？</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;个人无限制，特价服务器，数量有限&#39;);">云服务器开通次数的说明</a>
+</li></ul>
+</div>
+</li>
+<li>
+<div class="free-app-card">
+<a href="http://www.jyvip.xyz/index.php/buy/index/1/">
+<div class="free-app-card-top" style="background-image: url(/templates/sanfeng/style/images/img/homepage-free-03.png);">
+<h4>免备案系统</h4>
+<p>专用服务器，专用线路，实时在线开通</p>
+<p>送免备案系统，永久免费</p>
+<br>
+<div class="free-app-card-bottom">
+<p>无需备案</p>
+<p>智能加速</p>
+<p>提交即用</p>
+<p>海外线路</p>
+</div>
+</div>
+</a>
+</div>
+<div class="section-content-free-bottom free_beian">
+<ul><li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;免备案使用的是海外线路，需要回国\n备案使用的是国内线路，延迟低&#39;);">免备案为什么没有备案的速度快？</a>
+</li><li>
+<a href="http://cc.1xie.xyz/" target="_blank" onclick="return confirm(&#39;可以使用我们提供的免费备案域名\n点击确定，进入使用&#39;);">我没有备案域名想使用国内主机怎么办？</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#" onclick="return confirm(&#39;为了提高速度，我们采用了CN2和BGP高速线路&#39;);">免备案主机使用的什么线路？</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section section-padding section-vhost" id="section-mall" bi_parent_name="虚拟主机">
+<div class="section-title-yellow">
+<h1>独立IP虚拟主机&nbsp;&nbsp;&nbsp;&nbsp;共享IP虚拟主机</h1>
+<h2>你购买的不只是产品，更是一对一的全渠道服务支持</h2>
+</div>
+<div class="auto">
+<div class="info-nav vhost">
+<div class="product-info">
+<div class="product-info-detail">
+<p>虚拟主机具备高在线率、高安全性、高稳定性等多项优势</p>
+<p>提供独立IP、不限流量、支持ASP、PHP</p>
+<p>具备域名绑定、重启主机、防盗链设置、压缩解压、目录权限设置等上百项功能</p>
+</div>
+</div>
+<p class="product-info-btn">
+<a target="_blank" href="http://www.jyvip.xyz/index.php/buy/index" class="info-btn1 btn">立即选购</a>
+</p></div>
+<div class="trans-box clearfix">
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="section section-padding section-free" id="global-map" bi_parent_name="备案中心">
+<div class="section-title">
+<h1>
+ICP备案中心
+<!--<a class="ba-btn"href="/control/#/beian"target="_blank"style="vertical-align:bottom;">登录备案系统</a>-->
+</h1>
+</div>
+<div class="auto">
+<div class="panel-content clearfix">
+<div class="AGrid-row no-gap">
+<div class="col-pd-4 col-mb-12 unfold">
+<div class="super-t-mb">
+<p>专属服务支持</p>
+<i class="fold-btn"></i>
+</div>
+<div class="supe-body aui-tile">
+<i>
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/super1.png">
+</i>
+<p class="ba-title">专属服务支持</p>
+<p class="ba-info">如您有任何相关备案问题，可通过精英云备案专
+属服务通道获得服务支持，或者提交备案类工单</p>
+</div>
+</div>
+<div class="col-pd-4 col-mb-12">
+<div class="super-t-mb">
+<p>初审两小时返回结果</p>
+<i class="fold-btn"></i>
+</div>
+<div class="supe-body aui-tile">
+<i>
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/super2.png">
+</i>
+<p class="ba-title">初审两小时返回结果</p>
+<p class="ba-info">您提交的全部备案资料，精英云将在工作时间
+两小时内进行初审，返回初审结果</p>
+</div>
+</div>
+<div class="col-pd-4 col-mb-12">
+<div class="super-t-mb">
+<p>幕布邮递</p>
+<i class="fold-btn"></i>
+</div>
+<div class="supe-body aui-tile">
+<i>
+<img src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/super3.png">
+</i>
+<p class="ba-title">幕布邮递</p>
+<p class="ba-info">精英云为用户提供备案幕布邮递服务，您可以自
+行拍照并上传网站负责人当面核验照片</p>
+</div>
+</div>
+</div>
+</div>
+<div class="trans-box clearfix" style="padding-left: 50px;background: rgba(0,0,0,0.1)">
+<div id="beian_help_content1" class="help-content">
+<ul><li>
+<a href="http://www.jyvip.xyz/#">备案必读手册</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">首次备案流程示例图</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">新增接入流程示例图</a>
+</li></ul>
+</div>
+<div id="beian_help_content2" class="help-content">
+<ul><li>
+<a href="http://www.jyvip.xyz/#">新增网站流程示例图</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">网站备案真实性核验单下载及填写示例图</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">电子版幕布下载</a>
+</li></ul>
+</div>
+<div id="beian_help_content3" class="help-content">
+<ul><li>
+<a href="http://www.jyvip.xyz/#">企业授权书下载及填写注意事项</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">关于备案为什么收取备案工本费的相关说明</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">备案被注销原因分析和解决办法</a>
+</li></ul>
+</div>
+<div id="beian_help_content4" class="help-content">
+<ul><li>
+<a href="http://www.jyvip.xyz/#">其他地方备案的域名是否可以在精英云使用？</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">主办单位及主体负责人基本信息填写详情说明</a>
+</li><li>
+<a href="http://www.jyvip.xyz/#">针对可以备案几个域名的相关说明</a>
+</li></ul>
+</div>
+</div>
+</div>
+</div>
+<div class="section section-padding" id="section-authen" bi_parent_name="合作伙伴">
+<div class="hezuo-top auto clearfix">
+<div class="aoyou">
+</div>
+<div class="info-nav" style="height: 250px;padding-top: 44px;padding-left: 100px;float: left;">
+<div class="product-info">
+<h1 class="product-info-title" style="color: #000;">遨游互联网从一个域名开始</h1>
+<div class="product-info-detail" style="color: #989898;">
+<p>选择最适合自己的域名，开始遨游互联网，早日成为明日行业大咖。</p>
+</div>
+</div>
+<p class="product-info-btn">
+<a target="_blank" href="http://www.jyvip.xyz/index.php/buy/index" class="info-btn1 btn">立即选购</a>
+</p>
+</div>
+</div>
+<div class="section-content-middle section-wrapper">
+<div class="hezuo-title">
+合作伙伴
+
+</div>
+<div class="hezuo-list clearfix">
+<ul>
+<li>
+<a class="hezuo-card-01 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-02 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-03 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-04 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-05 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-06 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-07 hezuo-card" href="javascript:;"></a>
+</li>
+<li>
+<a class="hezuo-card-08 hezuo-card" href="javascript:;"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="signfooter">
+<div class="signfooter-nav" style="margin-top: 10px">
+<div class="signfooter-bg">
+<div class="signfooter-imgg"></div>
+</div>
+</div>
+<div class="footer-signfooter">
+<div class="nav-links">
+<ul>
+<li><a href="http://www.jyvip.xyz/#">关于我们</a></li>
+<li>|</li>
+<li><a href="http://www.jyvip.xyz/#">联系我们</a></li>
+<li>|</li>
+<li><a href="http://www.jyvip.xyz/#">帮助文档</a></li>
+<li>|</li>
+<li><a href="http://www.jyvip.xyz/index.php/buy/index">免费虚拟主机</a></li>
+<li>|</li>
+<li><a href="http://www.jyvip.xyz/index.php/buy/index/4/">云服务器</a></li>
+<li>|</li>
+<li><a href="http://www.jyvip.xyz/index.php/buy/index">虚拟主机</a></li>
+<li>|</li>
+<li><a href="https://wanwang.aliyun.com/">域名注册</a></li>
+</ul>
+</div><br>
+<div class="ownership">
+<span>Copyright © 20016-2020 jyvip.xyz All Rights Reserved. 精英云 版权所有 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>
+</div>
+<div class="ownership">
+<span></span>
+</div>
+
+<div class="ownership">
+<span>友情链接：<a href="http://www.xinxiudh.com/" target="_blank">新秀导航</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ruodanglaishi.xyz/" target="_blank">觅鹿影视</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ruodanglaishi.xyz/" target="_blank">小球解析</a> &nbsp;&nbsp;&nbsp;&nbsp;等待添加 &nbsp;&nbsp;&nbsp;&nbsp;等待添加 &nbsp;&nbsp;&nbsp;&nbsp;<a href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=743161828" target="_blank">申请友链</a></span>
+</div>
+<div class="ownership">
+<span></span>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div class="section-nav" data-theme="grey"><a class="section-nav-switch active" data-target="#section-banner" mate-data-ts="www_china_zh-cn_index.view.pagenav_banner">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>最新活动</span></div>
+</a><a class="section-nav-switch" data-target="#section-product" mate-data-ts="www_china_zh-cn_index.view.pagenav_阿肖学院">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>精英学院</span></div>
+</a><a class="section-nav-switch" data-target="#section-solution" mate-data-ts="www_china_zh-cn_index.view.pagenav_免费产品">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>免费产品</span></div>
+</a><a class="section-nav-switch" data-target="#section-mall" mate-data-ts="www_china_zh-cn_index.view.pagenav_虚拟主机">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>虚拟主机</span></div>
+</a><a class="section-nav-switch" data-target="#section-news" mate-data-ts="www_china_zh-cn_index.view.pagenav_云服务器">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>云服务器</span></div>
+</a><a class="section-nav-switch" data-target="#global-map" mate-data-ts="www_china_zh-cn_index.view.pagenav_备案中心">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>备案中心</span></div>
+</a><a class="section-nav-switch" data-target="#section-authen" mate-data-ts="www_china_zh-cn_index.view.pagenav_合作伙伴">
+<div class="section-nav-active-bg"></div>
+<div class="section-nav-bg"></div>
+<div class="section-nav-label"><span>合作伙伴</span></div>
+</a></div>
+</div>
+</div>
+
+
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/sweetalert.min.js.下载"></script>
+<script>
+swal('接到机房通知','检测到香港服务器存在非法内容\n\n全面清理数据，抵制违法违规，请不要试探法律\n\n时间没有到期的用户带用户账号联系客服补偿加款，重新开通','success');    function AddFavorite(title, url) {
+  try {
+      window.external.addFavorite(url, title);
+  }
+catch (e) {
+     try {
+       window.sidebar.addPanel(title, url,"");
+    }
+     catch (e) {
+         alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加! \n\n手机用户可以使用添加书签方式保存本站!");
+     }
+  }
+}
+</script><div class="swal-overlay swal-overlay--show-modal" tabindex="-1">
+  <div class="swal-modal" role="dialog" aria-modal="true"><div class="swal-icon swal-icon--success">
+    <span class="swal-icon--success__line swal-icon--success__line--long"></span>
+    <span class="swal-icon--success__line swal-icon--success__line--tip"></span>
+
+    <div class="swal-icon--success__ring"></div>
+    <div class="swal-icon--success__hide-corners"></div>
+  </div><div class="swal-title" style="">接到机房通知</div><div class="swal-text" style="">检测到香港服务器存在非法内容<br><br>全面清理数据，抵制违法违规，请不要试探法律<br><br>时间没有到期的用户带用户账号联系客服补偿加款，重新开通</div><div class="swal-footer"><div class="swal-button-container">
+
+    <button class="swal-button swal-button--confirm">OK</button>
+
+    <div class="swal-button__loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div></div></div></div>
+
+
+
+
+<div class="float-sidebar last" bi_parent_name="floatSidebar"><ul class="float-bar-nav">
+        <li class="item cart">
+            <a href="http://www.jyvip.xyz/index.php/buy">购买</a>
+        </li>
+        <li class="item tel"><span class="icons-float-bar f1"></span>
+            <p>
+                咨询<br> 反馈
+            </p>
+            <div class="sub-nav-layer">
+                <div class="sub-nav-main">
+                    <div class="sub-inner inner">
+                        <a href="javascript:;" class="qq-pre">
+                            <span class="icons-float-icon f3"></span>
+                            <span class="title">售前咨询</span>
+                            <span>（8:30-21:00）</span>
+                        </a>
+                        <a class="info" href="javascript:;">400-280-5668 按1键</a>
+                        <a class="info qq-pre" href="javascript:;"><span class="qq"></span>QQ：743161828</a>
+                    </div>
+                    <div class="sub-inner inner">
+                        <a href="javascript:;" class="qq-record">
+                            <span class="icons-float-icon f2"></span>
+                            <span class="title">备案咨询</span>
+                            <span>（8:30-21:00）</span>
+                        </a>
+                        <a class="info" href="javascript:;">400-9989-5336 按2键</a>
+                        <a class="info qq-record" href="javascript:;"><span class="qq"></span>QQ：3300616904</a>
+                    </div>
+                    <div class="sub-inner inner">
+                        <a href="http://www.jyvip.xyz/index.php/ticket/submit/" "="">
+                            <span class="icons-float-icon f5"></span>
+                            <span class="title">售后技术</span>
+                            <span>（8:30-21:00）</span>
+                        </a>
+                        <a class="info" href="http://www.jyvip.xyz/" index.php="" ticket="" submit="" ""="">提交技术工单，效率更高</a>
+                        <a class="info work" href="http://www.jyvip.xyz/index.php/ticket/submit/">&gt;&gt;点击提交工单</a>
+                    </div>
+                </div>
+            </div></li>
+        <li class="item to-top-btn"><a href="javascript:;"><span class="icons-float-bar to-top"></span></a></li>
+    </ul></div>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/jquery.min.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/public2.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/jquery.dialog.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/iframeTools.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/index2.js.下载"></script>
+<script>
+    $('.page-next-banner').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+</script>
+
+
+
+
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/jquery-2.1.1.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/popper.min.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/bootstrap.min.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/jquery.validate.min.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/plugins.js.下载"></script>
+<script src="./精英云-精英互联-云服务器-虚拟主机-免费空间-免备案_files/custom.js.下载"></script>
+
+
+<div style="display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; cursor: move; opacity: 0; background: rgb(255, 255, 255);"></div></body></html>
