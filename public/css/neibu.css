@@ -1,0 +1,130 @@
+* {
+    	margin: 0;
+    	padding: 0;/* 左右边距 */
+		font-family: 楷体;
+    }
+
+    
+    #box {
+    	width: 100%;/* 整个总长 */
+    	margin: 0px;/*状态栏下面标题大小*/
+    }
+
+    
+    #top {
+    	width: 100%;
+    	height:150px;
+    	background-image: url('../img/1.jpg');/*顶栏照片*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    } 
+
+    
+    #logo {
+    	margin-top: 0px;
+    	margin-left: 0px;/*这两个控制logo的位置*/
+    }
+
+    
+    #led {
+    	width: 100%;
+    	height: 15px; /*公告栏高度和百分比*/
+    	float: left;
+		margin-top: auto;
+    }
+
+   
+    #footer {
+    	width: 100%;
+    	height: 250px;
+    	background-image: url('../img/1.jpg');/*底部照片*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    }
+
+    
+    }
+
+    .1 {}
+
+    .navbar li ul {
+    	position: absolute;
+    	width: 10%;
+    	z-index: 1; /* 前后顺序 */
+    }
+
+   
+    ul li:hover ul {
+    	display: bold;
+    	/*  background: linear-gradient(/*  #00ff00, #ff0000);*/
+		background-color:#039be3;	/* 二级导航栏背后颜色 */
+    }
+
+    
+    .navbar a {
+    	display: block;
+    	height: 9.09%;/* 调整一级二级导航栏背景长度 */
+    	font-size: 18px;/* 导航栏大小 */
+
+    }
+
+    ul li ul li {
+    	float: none;
+    	min-width: 100%; /* 百分比是调整二级导航栏选择颜色长度 */
+    }
+
+   
+    ul li ul {
+    	display: none; /* 隐藏二级导航栏字 */
+    }
+
+   
+    ul li:hover ul {
+    	display: block;/* 显示二级导航栏 */
+    }
+
+    
+    #nav {
+    	height: 36px;
+    	wiidth: 100%;/* 中间长度 */
+    	/*background: linear-gradient(#00ff00, #ff0000);  */
+		background-color:#039be3;
+    	background-repeat: no-repeat;
+    	margin-top: 0px;/*background是状态栏颜色，margin-top是状态栏上下*/
+    }
+
+    
+    ul {
+    	list-style-type: none;/* 隐藏导航栏前面的点 */
+    	padding: 0;/* 导航栏上下距离 */
+    }
+
+    #nav ul li {
+    	float: left;
+    	width: 9.09%;
+    	line-height: 36px;
+    	text-align: center;/*状态栏字的百分比和大小*/
+    	font-family: 楷体;
+    }
+
+    
+    a {
+    	color: black;
+    	text-decoration: none;/* 隐藏导航栏下面横线 */
+    }
+
+    
+    #nav ul li:hover {
+    	/*  background: linear-gradient(#ff0000, #00ffff);*/ /*这个background颜色是鼠标放上去的颜色，手机上当你选中某个模块的颜色*/
+		background-color:#ffffff;
+    	font-weight: bold;
+    }
+#z{
+	position: fixed;
+right:0px;
+	margin-top:18px;
+	z-index: 1;
+}
+   
